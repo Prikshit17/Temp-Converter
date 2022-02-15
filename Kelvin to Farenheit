@@ -1,0 +1,13 @@
+const kelvin = 293;
+//this is the temperature in kelvin
+
+celsius = kelvin - 273;
+//to covert temperature from kelvin to celcius subtract 273 from kelvin
+
+var farenheit = celsius * (9/5) + 32
+//to change temp from celcius to farenheit we use the formula
+
+farenheit = Math.floor(farenheit);
+// Using the bove line we round of the value to the least nearest integer
+
+console.log("The temperature is", farenheit, "degrees Farenheit. "  )
